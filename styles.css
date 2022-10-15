@@ -243,6 +243,9 @@ margin: 5px 40px;
     .feat p{
         width:unset;
     }
+    .iphone{
+        height: 95%;
+    }
     
 }
 @media (max-width: 400px) {
@@ -253,8 +256,8 @@ margin: 5px 40px;
     font-size: 2.3rem;
    }
    .iphone{
+    height: 94%;
     width: 60%;
-    height: 91%;
    }
    #title{
     overflow: hidden;
