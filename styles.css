@@ -1,0 +1,298 @@
+body {
+    /* overflow: hidden; */
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat-Black';
+    font-size: 5.5rem;
+    line-height: 1.1;
+    font-weight: 900;
+
+}
+
+.meet {
+    font-family: 'Montserrat-Black';
+    font-size: 5rem;
+    line-height: 1.1;
+    font-weight: 900;
+    width: 80%;
+    margin-top: 25px;
+
+}
+
+#title {
+
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.collapse {
+    flex-direction: row-reverse;
+}
+
+.container {
+    padding: 3% 15%;
+    /* padding-right: 286px; */
+}
+
+/* .disp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+/* navbar */
+.navbar-brand,
+#na {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    font-size: 1.4rem;
+    font-family: 'Montserrat-Light';
+    margin: 0px 7px;
+}
+
+/* .download button */
+.download {
+    margin: 28px 0px;
+}
+
+/* iphone */
+.iphone {
+    
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    /* z-index: -1; */
+}
+
+
+/* feature section */
+
+/* #features{padding: 7% 7%;
+    text-align: center;
+    line-height: 1.7;
+    margin: 20px 0px;
+} */
+ #features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    /* z-index: 1; */
+   
+} 
+.feat{
+    text-align: center;
+    padding: 5%;
+}
+.feat h3{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.feat p{
+    color: #8f8f8f;
+    margin: auto;
+    width: 14vw;
+    font-size: 1.2rem;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 15px;
+}
+.icon:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+
+/*
+.feat-img{
+    width: 56px;
+    height: 56px;
+}
+.cont{
+    display: inline-block;
+    margin: 8px 60px;
+}
+.cont p{
+    text-align: center;
+    max-width: 40vw;
+    margin: auto;
+} */
+
+/* testemonials */
+
+#testemonial{
+    
+    text-align: center;
+    color: #fff;
+    background-color: #ef8172;
+}
+#testemonial h2{
+    /* max-width: 40vw; */
+    font-family: "Montserrat";
+    /* text-align: center; */
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.testemonial-img{
+    width: 12%;
+    margin-top: 15px;
+    margin-right: 19px;
+    border-radius: 100%;
+}
+
+/* press section */
+#press{
+background-color: #ef8172;
+text-align: center;
+padding-bottom: 5%;
+}
+.press-img{
+width: 12%;
+margin: 5px 40px;
+}
+.carousel-item{
+    padding: 6% 15%;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 6% 15%;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 5%;
+}
+
+
+#pricing-head{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 600;
+}
+#pricing-para{
+    font-family: "Montserrat";
+    font-size: 1.4rem;
+    font-weight: 390;
+}
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/* footer section */
+#footer{
+    padding: 4% 15%;
+    text-align: center;
+}
+#footer p{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.social-icon{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .iphone{
+        position: static;
+        transform: rotate(0);
+        width: 70%;
+    }
+    #title{
+        text-align: center;
+        margin: auto;
+    }
+    .meet{
+        margin: auto;
+    }
+    .testemonial-img{
+        width: 30%;
+    }
+}
+@media (max-width: 990px) {
+    .feat p{
+        width:unset;
+    }
+    
+}
+@media (max-width: 400px) {
+    #na{
+        font-size: 2.4rem;
+    }
+   .meet{
+    font-size: 2.3rem;
+   }
+   .iphone{
+    width: 60%;
+   }
+   #title{
+    overflow: hidden;
+   }
+   .buttn{
+    width: 60%;
+   }
+   .icon{
+    width: 33%;
+   }
+   .feat h3{
+    font-size: 1.2rem;
+   }
+   #testemonial h2{
+    font-size: 1.7rem;
+   }
+   #testemonial em{
+    font-size: .78rem;
+   }
+   .press-img {
+    width: 47%;
+    margin: 24px 40px;}
+    #pricing-head{
+        font-size: 2.5rem;
+    }
+    #pricing-para{
+        font-size: 1.2rem;
+    }
+    #cta h3{
+        font-size: 2.4rem;
+    }
+    #footer p{
+        font-size: 1.2rem;
+    }
+    #footer{
+        padding: 4% 14%;
+    }
+    #footer svg{
+        margin: 5px;
+    }
+
+}
