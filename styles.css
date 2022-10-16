@@ -248,9 +248,11 @@ margin: 5px 40px;
     }
 .press-img{
 width: 40%;
+margin: 20px;
 }
 #cta{padding:7% 10%;}
     .cta-heading{font-size:3rem;}
+.testemonial-h{line-height:1.1;}
 }
 @media (max-width: 400px) {
     #na{
