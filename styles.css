@@ -246,6 +246,10 @@ margin: 5px 40px;
     .iphone{
         height: 95%;
     }
+.press-img{
+width: 30%;
+}
+#cta{padding:5% 10%;}
     
 }
 @media (max-width: 400px) {
