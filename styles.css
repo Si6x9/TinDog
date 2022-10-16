@@ -250,7 +250,7 @@ margin: 5px 40px;
 width: 40%;
 }
 #cta{padding:7% 10%;}
-    
+    .cta-heading{font-size:3rem;}
 }
 @media (max-width: 400px) {
     #na{
