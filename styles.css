@@ -251,8 +251,9 @@ width: 40%;
 margin: 20px;
 }
 #cta{padding:7% 10%;}
-    .cta-heading{font-size:2.2rem;}
-.testemonial-h{line-height:0.1;}
+    .cta-heading{font-size:1.8rem;}
+.testemonial-h{line-height:0;}
+   #testemonial{padding-bottom:20px;}
 }
 @media (max-width: 400px) {
     #na{
